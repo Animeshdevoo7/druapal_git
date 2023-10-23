@@ -1,0 +1,14 @@
+nodeForm.basicPage:
+  title: New Form
+  description: Go to the new form link
+  route_name: nodeForm.buildForm
+  weight: 7
+  menu_name: main
+
+nodeForm.configlink:
+  title: Config State
+  description: Save Published state
+  weight: 5
+  route_name: nodeForm.configForm
+  parent: system.admin_config_system  
+  

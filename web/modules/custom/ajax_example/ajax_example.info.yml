@@ -1,0 +1,5 @@
+name: Ajax Module
+type: module
+description: this is the module to create an ajax state and city dropdown
+core_version_requirement: ^9||^10
+package: Custom Modules

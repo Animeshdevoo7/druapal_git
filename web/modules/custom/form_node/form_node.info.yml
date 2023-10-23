@@ -1,0 +1,5 @@
+name: form_node
+type: module
+core_version_requirement: ^9||^10
+description: By using this module you can create node using a form
+package: Custom Modules

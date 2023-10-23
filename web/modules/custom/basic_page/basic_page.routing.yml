@@ -1,0 +1,18 @@
+basic_page.basicPage:
+  path: /basic-page
+  defaults:
+    _controller: '\Drupal\basic_page\Controller\BasicPageController::basicPage'
+    _title: "Basic New"
+  requirements:
+    _permission: "access content"
+    _role: teacher+administrator
+
+basic_page.information:
+  path: '/information'
+  defaults:
+    _controller: '\Drupal\basic_page\Controller\BasicPageController::information'
+    _title: ''
+  requirements:
+    _permission: 'information permission'  
+    #_role: administrator
+

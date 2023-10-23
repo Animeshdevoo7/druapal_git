@@ -1,0 +1,15 @@
+nodeForm.buildForm:
+  path: /new-form
+  defaults:
+    _controller: '\Drupal\nodeForm\Controller\nodeFormController::createData'
+    _title: "Basic New"
+  requirements:
+    _permission: "access content"
+
+nodeForm.configForm:
+  path: /config-form
+  defaults:
+    _form: '\Drupal\nodeForm\Form\Configform'
+    _title: "Save State"
+  requirements:
+    _permission: "access content"    

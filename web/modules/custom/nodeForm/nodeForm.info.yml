@@ -1,0 +1,5 @@
+name: Node Form
+type: module
+description: The new Module for creating forms and creating the nodes
+core_version_requirement: ^9||^10
+package: Custom Modules
