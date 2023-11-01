@@ -1,0 +1,15 @@
+form_node.newform:
+  path: /node-creation-form
+  defaults:
+    _form: '\Drupal\form_node\Form\contentForm'
+    _title: "Enter nodes"
+  requirements:
+    _permission: "access content"
+
+form_node.listing:
+  path: /listing-form
+  defaults:
+    _controller: '\Drupal\form_node\Controller\NodeController::content'
+    _title: "Nodes Listing"
+  requirements:
+    _permission: "access content"    

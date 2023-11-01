@@ -12,4 +12,22 @@ nodeForm.configForm:
     _form: '\Drupal\nodeForm\Form\Configform'
     _title: "Save State"
   requirements:
-    _permission: "access content"    
+    _permission: "access content" 
+
+nodeForm.contentConfig:
+  path: /content-config
+  defaults:
+    _form: '\Drupal\nodeForm\Form\contentConfig'
+    _title: "Node"
+  requirements:
+    _permission: "access content"
+
+nodeForm.contentForm:
+  path: /new-content
+  defaults:
+    _form: '\Drupal\nodeForm\Form\Contentform'
+    _title: "Node Type"
+  requirements:
+    _permission: "access content" 
+
+

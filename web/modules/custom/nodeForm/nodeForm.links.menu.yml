@@ -11,4 +11,19 @@ nodeForm.configlink:
   weight: 5
   route_name: nodeForm.configForm
   parent: system.admin_config_system  
+
+nodeForm.contentForm:
+  title: Content form
+  description: Save Published state
+  weight: 8
+  route_name: nodeForm.contentForm
+  menu_name: main
+
+nodeForm.contentConfig:
+  title: Config type
+  description: Save Published state
+  weight: 5
+  route_name: nodeForm.contentConfig
+  parent: system.admin_config_system   
+
   

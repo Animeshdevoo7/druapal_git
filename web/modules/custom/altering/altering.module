@@ -1,0 +1,28 @@
+<?php
+/**
+ * @file
+ * Custom functions
+ */
+
+// function altering_form_alter(&$form,&$form_state, $form_id){
+// if ($form_id == 'article'){
+    
+// }
+
+
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+?>

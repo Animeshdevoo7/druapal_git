@@ -35,15 +35,14 @@
                 $count= $params['page'] * $limit;
                 $count++; 
             }
-
             foreach($result as $row){
                 $data[]=[
                     'serial'=>$count,
                     'name'=>$row->name,
                     'gender'=>$row->gender,
                     'about_employee'=>$row->about_employee,
-                    'edit'=> t("<a href='edit-employee/$row->id'>Edit</a>"),
-                    'delete'=> t("<a href='delete-employee/$row->id'>Delete</a>")
+                    'edit'=> $this->t("<a href='edit-employee/$row->id'>Edit</a>"),
+                    'delete'=> $this->t("<a href='delete-employee/$row->id'>Delete</a>")
                 ];
                 $count++;
             }

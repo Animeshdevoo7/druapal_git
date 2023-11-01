@@ -22,6 +22,8 @@
         "drupal/core-composer-scaffold": "^9.5",
         "drupal/core-project-message": "^9.5",
         "drupal/core-recommended": "^9.5",
+        "drupal/delete_all": "^3.0",
+        "drupal/maillog": "^1.1",
         "drupal/webform": "^6.2@RC",
         "drush/drush": "^11.6"
     },

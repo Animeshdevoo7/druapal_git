@@ -1,0 +1,25 @@
+custom_node.content:
+  path: /new-node
+  defaults:
+    _controller: '\Drupal\custom_node\Controller\CustomnodeCreation::content'
+    _title: "New Node"
+  requirements:
+    _permission: "access content"
+
+custom_node.json_api_get:
+  path: /json-api-get
+  defaults:
+    _controller: '\Drupal\custom_node\Controller\ApiController::getNodeData'
+    _title: "the latest collection"
+  methods: [GET]  
+  requirements: 
+    _access: 'TRUE'   
+
+custom_node.json_api_post:
+  path: /json-api-post
+  defaults:
+    _controller: '\Drupal\custom_node\Controller\ApiController::postNodeData'
+    _title: "the latest collection"
+  methods: [POST]  
+  requirements: 
+    _access: 'TRUE'        
